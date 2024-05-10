@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ul li {
+    margin: 0 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.A {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.ultimate {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body1 {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.body1 input[type="checkbox"] {
+    margin-right: 10px;
+    
+
+}
+.body1 input[type="text"] {
+    
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 500px;
+}
+
+    .task {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .task-checkbox {
+        margin-right: 10px;
+       transform: scale(1.5);
+       
+    }
+    
+    .task-text {
+        flex: 1;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .task-delete {
+        cursor: pointer;
+        color: red;
+        margin-left: 10px;
+    }
+    .button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(20, 20, 20);
+        border: none;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+        cursor: pointer;
+        transition-duration: .3s;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .svgIcon {
+        width: 12px;
+        transition-duration: .3s;
+      }
+      
+      .svgIcon path {
+        fill: white;
+      }
+      
+      .button:hover {
+        width: 140px;
+        border-radius: 50px;
+        transition-duration: .3s;
+        background-color: rgb(255, 69, 69);
+        align-items: center;
+      }
+      
+      .button:hover .svgIcon {
+        width: 50px;
+        transition-duration: .3s;
+        transform: translateY(60%);
+      }
+      
+      .button::before {
+        position: absolute;
+        top: -20px;
+        content: "Delete";
+        color: white;
+        transition-duration: .3s;
+        font-size: 2px;
+      }
+      
+      .button:hover::before {
+        font-size: 13px;
+        opacity: 1;
+        transform: translateY(30px);
+        transition-duration: .3s;
+      }
+      .completed {
+        text-decoration: line-through;
+        color: #999; 
+    }
+    .kok{
+        text-align: center;
+        margin: 100px;
+    }
+    .count{
+        padding: 15px;
+        width: 100px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .final{
+        text-align: center;
+    }
+    
